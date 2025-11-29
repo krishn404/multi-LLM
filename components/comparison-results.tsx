@@ -50,7 +50,7 @@ export function ComparisonResults({ results }: ComparisonResultsProps) {
         </div>
       </div>
 
-      <motion.div className="grid gap-4 lg:grid-cols-2" variants={containerVariants} initial="hidden" animate="visible">
+      <motion.div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3" variants={containerVariants} initial="hidden" animate="visible">
         {results.map((result) => (
           <motion.div key={result.model} variants={itemVariants}>
             <ResultCard result={result} />

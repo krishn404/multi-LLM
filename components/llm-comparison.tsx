@@ -25,6 +25,9 @@ const AVAILABLE_MODELS = [
   { id: "llama-3.3-70b-versatile", name: "Llama 3.3 70B", tag: "Production" },
   { id: "llama-3.1-8b-instant", name: "Llama 3.1 8B", tag: "Fast" },
   { id: "meta-llama/llama-4-scout-17b-16e-instruct", name: "Llama 4 Scout", tag: "Preview" },
+  { id: "gemini-1.5-flash", name: "Gemini 1.5 Flash", tag: "Google" },
+  { id: "huggingface-mixtral", name: "Mixtral 8x7B", tag: "Huggingface" },
+  { id: "deepseek-chat", name: "DeepSeek Chat", tag: "DeepSeek" },
 ]
 
 export function LLMComparison() {
